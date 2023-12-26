@@ -92,7 +92,6 @@ export class Service {
     }
 
     // file upload services
-
     async uploadFile(file) {
         try {
             return await this.bucket.createFile(
